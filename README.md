@@ -22,13 +22,23 @@ composer update
 
 this will update the environment and package required to run this project.
 
-Step-3: Run command:
+Step-3: rename .env-main to .env
+
+and set up your database.
+
+Step-4: Run Command
+
+php artisan db:seed
+
+This will create centers to take vaccine
+
+Step-5: Run command:
 
 php artisan migrate
 
 this will migrate the required database
 
-Step-3: Run command:
+Step-6: Run command:
 
 php artisan serve
 
