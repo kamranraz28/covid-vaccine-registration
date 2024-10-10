@@ -28,7 +28,7 @@ class RegistrationController extends Controller
 
         $this->registrationService->registerSubmit($request);
 
-        return redirect()->route('users.form')->with('success', 'Registration successful.');
+        return redirect()->route('users.form')->with('success', 'Registration successful. An E-mail has been sent with Scheduled Date and Center Name.');
     }
 
 }
