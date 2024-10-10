@@ -58,7 +58,9 @@ MAIL_FROM_ADDRESS=kamranraz28@gmail.com.com
 MAIL_FROM_NAME="${APP_NAME}"
 
 As now you can see these are my accounts credentials I tested. And after updating this, whenever a new user will register, a confirmation E-mail with scheduled date, Center name will send to the mailtrap (you can see this from mailtrap inboxes). And for the scheduling reminder? If you want to test manually that the scheduling task working properly or not, first check there have to be user who has scheduled date tommorrow. If there, run this command:
+
 php artisan schedule:run 
+
 This will send a reminder email for the user (you can see this from mailtrap inboxes).
 
 Thank you. If there is any query, you can mail me here: mdkamranhosan98@gmail.com
