@@ -26,17 +26,17 @@ Step-3: rename .env-main to .env
 
 and set up your database.
 
-Step-4: Run Command
-
-php artisan db:seed
-
-This will create centers to take vaccine
-
-Step-5: Run command:
+Step-4: Run Command 
 
 php artisan migrate
 
 this will migrate the required database
+
+Step-5: Run command:
+
+php artisan db:seed
+
+This will create centers to take vaccine
 
 Step-6: Run command:
 
